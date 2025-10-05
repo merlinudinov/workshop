@@ -10,7 +10,7 @@ output:
     theme: flatly
     toc: true
     toc_float: true
-    self_contained: false        # keep external files separate (needed for Pages)
+    self_contained: true        # keep external files separate (needed for Pages)
     css: style.css               # put style.css next to the HTML
 header-includes:
   - |
