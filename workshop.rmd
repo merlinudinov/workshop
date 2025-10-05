@@ -1,0 +1,82 @@
+---
+title: "**The 2025 Rutgers Subregular Morphophonology Workshop**"
+author: |
+  <br><br><br><br><br>
+  Hosted by the [Rutgers Computational Linguistics Lab](https://rucll.github.io) and supported by
+  [NSF Grant #2416184](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2416184)
+  <br><br><br><br>
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+    self_contained: false        # keep external files separate (needed for Pages)
+    css: style.css               # put style.css next to the HTML
+header-includes:
+  - |
+    <!-- SEO basics -->
+    <meta name="description" content="Rutgers Subregular Morphophonology Workshop 2025 — Nov 14–16, 2025, Rutgers University, New Brunswick, NJ.">
+    <meta name="keywords" content="linguistics,Rutgers,phonology,subregular,morphophonology,computational linguistics,workshop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+
+    <!-- Open Graph (social preview) -->
+    <meta property="og:title" content="The 2025 Rutgers Subregular Morphophonology Workshop">
+    <meta property="og:description" content="Nov 14–16, 2025 — hosted by Rutgers Computational Linguistics Lab.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rucll.github.io/workshop2025/">
+    <meta property="og:image" content="https://rucll.github.io/workshop2025/banner.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The 2025 Rutgers Subregular Morphophonology Workshop">
+    <meta name="twitter:description" content="Hosted by the Rutgers Computational Linguistics Lab.">
+    <meta name="twitter:image" content="https://rucll.github.io/workshop2025/banner.png">
+
+    <!-- Google Fonts (load before style.css) -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+---
+<div style="text-align: right;">
+<span style="color:grey"><i>last update</i>: `r format(Sys.time(), "%m/%d/%Y %H:%M:%S %Z")`</span>
+</div>
+
+___
+### Date and location
+
+November 14-16th, 2025 <br>
+[Academic Building West](https://www.google.com/maps/place/Rutgers+Academic+Building/@40.5016957,-74.4486641,19z/data=!3m1!4b1!4m5!3m4!1s0x89c3c654968a5905:0xf670657786227229!8m2!3d40.5016947!4d-74.4481169?shorturl=1) (the one on the left looking from Seminary Pl), Rm 4052<br>
+Seminary Pl, New Brunswick, NJ
+
+___
+
+### Schedule
+
+Day 1 (Friday, Nov 14) 01:30 PM - 05:15 PM<br>
+Day 2 (Saturday, Nov 15) 09:00 AM to 05:15 PM<br>
+Day 3 (Sunday, Nov 16) 09:00 AM to 12:15 PM<br>
+
+___
+<b>More detailed information will be announced later.</b>
+
+<script>
+document.addEventListener("scroll", () => {
+  document.querySelectorAll('.reveal').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 80) {
+      el.classList.add('visible');
+    }
+  });
+});
+</script>
+
+<div id="backToTop">▲ Top</div>
+<script>
+const btn = document.getElementById('backToTop');
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) btn.classList.add("show");
+  else btn.classList.remove("show");
+});
+btn.addEventListener("click", () => window.scrollTo({top:0, behavior:'smooth'}));
+</script>
+
